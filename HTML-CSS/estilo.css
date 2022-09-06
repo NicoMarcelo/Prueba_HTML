@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.izquierda {
+    background: antiquewhite;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.derecha {
+    background: url(cft_2.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 100vh;
+}
+
+.mision{
+    height: 80%;
+    width: 60%;
+    text-align:center;
+    margin-top: -80px;
+
+}
+
+.vision{
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    margin-top: -85px;
+}
+
+.abajo {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+#Weon {
+    display: Flex;
+}
+
+#pantalla-dividida2{
+    display: flex;
+}
+
+.creative{
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 100px;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h3{
+    font-size: 50px;
+    line-height: 100px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px; 
+    border-radius: 1000px;
+    border: 1px solid rgb(0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+    color: #ff8243;
+    background-color: rgb(6, 8, 8);
+    text-decoration: none; 
+}
+
+a:hover{
+    color: white;
+}
+
+.link {
+    text-align: center;
+    
+}
+
+.lista {
+    text-align: left;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.cuadrito1{
+    text-align: center;
+    width: 50%;
+    color: #ff8243;
+}
+
+.cuadrito2{
+    text-align: center;
+    width: 50%;
+}
+
+.boton{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px; 
+    border-radius: 1000px;
+    border: 1px solid rgb(0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+    color: #ff8243;
+    background-color: rgb(6, 8, 8);
+    text-decoration: none; 
+}
+
+.boton:hover{
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {
+    margin: 0 -5px;
+    text-align: center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 200px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 100px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(223, 207, 187, 0.884);
+  }
+
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
