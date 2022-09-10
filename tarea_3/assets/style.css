@@ -1,0 +1,32 @@
+#cabeza{
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.imagen{
+    padding-left: 300px;
+}
+
+.imagen-tabla{
+    padding-left: 300px;
+}
+
+.bordes{
+    padding-top: 75px;
+}
+
+.imagen-bordes{
+    padding-left: 300px;
+}
+
+table{
+    border: #b2b2b2 1px solid;
+    margin-left: 300px;
+}
+
+td,th{
+    border: black 1px solid;
+}
